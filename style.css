@@ -1,14 +1,9 @@
 html,
 body,
 * {
-  padding: 15px;
-  margin: 15px;
   box-sizing: border-box;
   font-size: 62.5%;
-  border: 1px;
-  border-color: black;
-  align-content: center;
-  background-color: #f4d35e;
+  background-color: #ffba08;
 }
 .parent {
   font-size: 30px;
@@ -24,7 +19,15 @@ body,
   text-align: center;
   box-shadow: gray 10px 10px;
   background-color: white;
+  padding: 15px;
+  margin: 15px;
 }
+
+.subhead {
+  background-color: white;
+  font-size: 20px;
+}
+
 .header {
   font-size: 40px;
   font-style: italic;
@@ -32,4 +35,6 @@ body,
   background-color: gray;
   color: darkorange;
   font-family: "Fjalla One", sans-serif;
+  padding: 15px;
+  margin: 15px;
 }
