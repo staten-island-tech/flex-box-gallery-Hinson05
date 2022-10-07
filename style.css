@@ -48,3 +48,13 @@ body,
   height: 110px;
   width: 80px;
 }
+
+.child:hover {
+  transition: background-color 0.5s;
+  background-color: #e9ecef;
+  transform: scale(1.25);
+}
+
+.header:hover {
+  transform: scale(1.25);
+}
