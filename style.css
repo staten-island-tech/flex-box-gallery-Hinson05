@@ -93,3 +93,24 @@ body,
   transform: scale(1.1);
   outline: 1rem solid black;
 }
+
+.image2:hover {
+  transform: scale(1.1);
+  outline: 1rem solid black;
+}
+
+.sub {
+  padding-top: 5px;
+}
+
+.icon {
+  position: absolute;
+  animation: 4s linear 0s infinite alternate bounce;
+}
+@keyframes bounce;
+0% {
+  transform: translateX(-50vw);
+}
+100% {
+  transform: translateX(50vw);
+}
