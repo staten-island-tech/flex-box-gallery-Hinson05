@@ -134,6 +134,7 @@ body,
 .icon.hover {
   position: absolute;
   animation: 4s linear 0s infinite alternate bounce;
+  animation: spin 1s infinite;
 }
 @keyframes bounce {
 0% {
@@ -141,3 +142,4 @@ body,
 100% {
   transform: translateX(-95vw);
 }
+
