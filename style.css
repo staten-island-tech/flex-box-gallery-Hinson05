@@ -44,6 +44,12 @@ body,
   background-color: white;
 }
 
+.bleh {
+  font-size: 10px;
+  background-color: white;
+  padding-top: 70px;
+}
+
 .image2 {
   height: 110px;
   width: 80px;
@@ -97,7 +103,20 @@ body,
 .image2:hover {
   transform: scale(1.1);
   outline: 1rem solid black;
+  animation: spin 1s;
 }
+@keyframes spin {
+  0%{
+    transform: rotate(0deg);
+  }
+  50%{
+    transform: rotate(360deg);
+  }
+  100%{
+    transform: rotate(720deg);
+  }
+}
+
 
 .sub {
   padding-top: 5px;
@@ -106,11 +125,19 @@ body,
 .icon {
   position: absolute;
   animation: 4s linear 0s infinite alternate bounce;
+  background-color: none;
+  height: 100px;
+  width: 100px;
+  padding: 50px auto;
+  margin: 50px auto;
 }
-@keyframes bounce;
+.icon.hover {
+  position: absolute;
+  animation: 4s linear 0s infinite alternate bounce;
+}
+@keyframes bounce {
 0% {
-  transform: translateX(-50vw);
-}
+  transform: translateX(95vw);
 100% {
-  transform: translateX(50vw);
+  transform: translateX(-95vw);
 }
