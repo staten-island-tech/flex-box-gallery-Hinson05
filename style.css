@@ -139,7 +139,9 @@ body,
 }
 @keyframes bounce {
 0% {
-  transform: translateX(95vw);
+  transform: translateX(93vw);
 100% {
-  transform: translateX(-95vw);
+  transform: translateX(-93vw);
 }
+
+
