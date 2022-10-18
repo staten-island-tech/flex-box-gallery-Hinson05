@@ -62,6 +62,7 @@ body,
 }
 
 .header:hover {
+  transition: ease-out .15s;
   transform: scale(1.25);
   opacity: .85;
 }
@@ -97,7 +98,8 @@ body,
 }
 
 .image:hover {
-  transform: scale(1.1);
+  transition: ease-out .15s;
+  transform: scale(1.0);
   outline: 1rem solid black;
 }
 
@@ -144,4 +146,7 @@ body,
   transform: translateX(-93vw);
 }
 
+@media (min-width: 390px){
+  body
+}
 
