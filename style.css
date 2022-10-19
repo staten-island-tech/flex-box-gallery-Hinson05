@@ -5,6 +5,7 @@ body,
   font-size: 62.5%;
   background-color: #ffba08;
 }
+
 .parent {
   font-size: 30px;
   display: flex;
@@ -119,8 +120,6 @@ body,
     transform: rotate(720deg);
   }
 }
-
-
 .sub {
   padding-top: 5px;
 }
@@ -145,8 +144,10 @@ body,
 100% {
   transform: translateX(-93vw);
 }
-
-@media (min-width: 390px){
-  body
 }
-
+@media  (min-width: 300px) and (max-width: 844px) { 
+  .child{
+    width: 77px;
+    length: 77px;
+  }
+}
