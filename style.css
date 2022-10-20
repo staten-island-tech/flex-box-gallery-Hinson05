@@ -44,13 +44,6 @@ body,
   font-size: 15px;
   background-color: white;
 }
-
-.bleh {
-  font-size: 10px;
-  background-color: white;
-  padding-top: 70px;
-}
-
 .image2 {
   height: 110px;
   width: 80px;
@@ -145,9 +138,44 @@ body,
   transform: translateX(-93vw);
 }
 }
-@media  (min-width: 300px) and (max-width: 844px) { 
+@media  screen and (max-width: 794px) { 
   .child{
-    width: 77px;
-    length: 77px;
+    width: 107px;
+    height: 107px;
+  }
+    .icon.hover {
+      position: absolute;
+      animation: 4s linear 0s infinite alternate bounce;
+      animation: spin 1s infinite;
+    }
+    @keyframes bounce {
+    0% {
+      transform: translateX(-15vw);
+    100% {
+      transform: translateX(-15vw);
+    }
   }
 }
+@media  screen and (min-width: 390px) { 
+  .child{
+    width: 57px;
+    height: 57px;
+  }
+  .sub{
+    font-size: 3px;
+  }
+  .quotes{
+    font-size: 1rem;
+  }
+    .icon.hover {
+      position: absolute;
+      animation: 4s linear 0s infinite alternate bounce;
+      animation: spin 1s infinite;
+    }
+    @keyframes bounce {
+    0% {
+      transform: translateX(-25vw);
+    100% {
+      transform: translateX(-25vw);
+    }
+  }
