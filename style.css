@@ -41,12 +41,22 @@ body,
 }
 
 .sub {
-  font-size: 15px;
+  font-size: 10px;
   background-color: white;
 }
+
+.bleh {
+  font-size: 10px;
+  background-color: white;
+  padding-top: 70px;
+}
+
 .image2 {
   height: 110px;
   width: 80px;
+}
+.quotes {
+  font-size: 6.5px;
 }
 
 .child:hover {
@@ -138,7 +148,7 @@ body,
   transform: translateX(-93vw);
 }
 }
-@media(min-width: 794px) { 
+@media  (min-width: 300px) and (max-width: 844px) { 
   .child{
     width: 107px;
     height: 107px;
@@ -150,27 +160,32 @@ body,
     }
     @keyframes bounce {
     0% {
-      transform: translateX(-15vw);
+      transform: translateX(-25vw);
     100% {
-      transform: translateX(-15vw);
+      transform: translateX(-25vw);
     }
   }
 }
-}
-@media(min-width: 390px) and (max-width: 794px) { 
-  .child{
-    width: 17px;
-    height: 17px;
-  }
+@media  (max-width: 390px) { 
   .parent{
-    width: 80px;
+    width:57px;
+    height: 57px;
+  }
+  .child{
+    width: 37px;
+    height: 37px;
   }
   .sub{
-    font-size: 3px;
+    font-size: 5px;
+    width: 5px;
+    height: 5px;
   }
   .quotes{
-    font-size: 1rem;
+    font-size: 5px;
+    width: 5px;
+    height: 5px;
   }
+}
     .icon.hover {
       position: absolute;
       animation: 4s linear 0s infinite alternate bounce;
@@ -178,9 +193,9 @@ body,
     }
     @keyframes bounce {
     0% {
-      transform: translateX(-25vw);
-    }
+      transform: translateX(-35vw);
     100% {
-      transform: translateX(-25vw);
+      transform: translateX(-35vw);
     }
   }
+}
